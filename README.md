@@ -42,7 +42,7 @@ The dataset contains customer demographic data, purchasing channels, campaign re
    - Imputed missing values in `Income` using the median (24 records).
    - Removed extreme outliers (e.g., customers aged > 90 or earning > $600,000).
 2. **Feature Engineering:**
-   - Calculated `Age` ($2026 - \text{Year\_Birth}$) and `customer_Tenure_days`.
+   - Calculated `Age` `2026 - Year_Birth` and `customer_Tenure_days`.
    - Consolidated `Total_spending` across all product categories (Wines, Fruits, Meat, Fish, Sweets, Gold).
    - Aggregated `total_children` from `Kidhome` and `Teenhome`.
    - Grouped `Education` into 3 tiers (*UnderGraduate*, *Graduate*, *PostGraduate*) and `Marital_Status` into `Living_With` (*Partner* vs. *Alone*).
